@@ -135,7 +135,7 @@ RegisterNUICallback('cDataPed', function(nData, cb)
                     PlaceObjectOnGroundProperly(charPed)
                     SetBlockingOfNonTemporaryEvents(charPed, true)
                     data = json.decode(data)
-                    TriggerEvent('qb-clothing:client:loadPlayerClothing', data, charPed)
+                    exports['fivem-appearance']:setPedAppearance(charPed, skinData)
                 end)
             else
                 CreateThread(function()

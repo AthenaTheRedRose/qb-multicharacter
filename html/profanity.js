@@ -373,7 +373,6 @@ const profList = [
     "scrote",
     "scrotum",
     "semen",
-    "sex",
     "sh!+",
     "sh!t",
     "sh1t",
